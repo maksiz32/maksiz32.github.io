@@ -1233,7 +1233,7 @@ button, button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 180px 0 140px 0;
+  padding: 130px 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
