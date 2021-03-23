@@ -1,0 +1,85 @@
+@font-face {
+        font-family: 'raleway';
+        src: url('../font/raleway-light.eot');
+        src: url('../font/raleway-light.eot?#iefix') format('embedded-opentype'),
+             url('../font/raleway-light.svg#raleway-light') format('svg'),
+             url('../font/raleway-light.ttf') format('truetype'),
+             url('../font/raleway-light.woff') format('woff'),
+             url('../font/raleway-light.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../font/raleway-regular.eot');
+    src: url('../font/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/raleway-regular.ttf') format('truetype'),
+         url('../font/raleway-regular.woff') format('woff'),
+         url('../font/raleway-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../font/raleway-medium.eot');
+    src: url('../font/raleway-medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/raleway-medium.ttf') format('truetype'),
+         url('../font/raleway-medium.woff') format('woff'),
+         url('../font/raleway-medium.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../font/raleway-bold.ttf') format('truetype'),
+         url('../font/raleway-bold.woff') format('woff'), 
+        url('../font/raleway-bold.eot'),
+        url('../font/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/raleway-bold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'montserrat';
+    src: url('../font/montserrat-regular.eot');
+    src: url('../font/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/montserrat-regular.svg#montserrat-regular') format('svg'),
+         url('../font/montserrat-regular.ttf') format('truetype'),
+         url('../font/montserrat-regular.woff') format('woff'),
+         url('../font/montserrat-regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'fontello';
+     src: url('../font/fontello.eot?97882181');
+     src: url('../font/fontello.eot?97882181#iefix') format('embedded-opentype'),
+          url('../font/fontello.woff2?97882181') format('woff2'),
+          url('../font/fontello.woff?97882181') format('woff'),
+          url('../font/fontello.ttf?97882181') format('truetype'),
+          url('../font/fontello.svg?97882181#fontello') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'roboto';
+     src: url('../font/');
+     src: url('../font/?#iefix') format('embedded-opentype'),
+          url('../font/roboto-regular.svg#roboto-regular') format('svg'),
+          url('../font/roboto-regular.ttf') format('truetype'),
+          url('../font/roboto-regular.woff') format('woff'),
+          url('../font/roboto-regular.woff2') format('woff2');
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'menu-btn';
+     src: url('../font/menu-btn.eot?6999319');
+     src: url('../font/menu-btn.eot?6999319#iefix') format('embedded-opentype'),
+          url('../font/menu-btn.woff2?6999319') format('woff2'),
+          url('../font/menu-btn.woff?6999319') format('woff'),
+          url('../font/menu-btn.ttf?6999319') format('truetype'),
+          url('../font/menu-btn.svg?6999319#menu-btn') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
