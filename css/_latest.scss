@@ -54,6 +54,7 @@
             font-weight: 300;
             color: #ffffff;
             box-sizing: border-box;
+            cursor: pointer;
         }
 
         &-link:active {
@@ -200,6 +201,7 @@
             color: #736357;
             box-shadow: inset 0px -2px 0px 0px #ac9584;
             border: 1px solid #ebebeb;
+            cursor: pointer;
         }
 
         &:active {
