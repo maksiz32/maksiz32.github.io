@@ -1227,6 +1227,7 @@ button, button:focus {
   background-image: url("../img/footer_mountains.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
