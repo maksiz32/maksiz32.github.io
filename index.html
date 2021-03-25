@@ -308,9 +308,9 @@
             </button>
         </section>
         <section class="video">
-            <video muted src="video/friends_ride.mp4" poster="img/poster_video_friends.png" class="video-file"></video>
-            <div class="video-description">
-                <button class="video-description-btn">
+            <video id="video" muted src="video/friends_ride.mp4" poster="img/poster_video_friends.png" class="video-file"></video>
+            <div id="video-div" class="video-description">
+                <button id="video-btn" class="video-description-btn">
                     <svg class="video-play-btn-icon"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -322,6 +322,20 @@
                 <p class="video-description-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
                 <span class="video-description-time">03:26</span>
             </div>
+            <script>
+                let video = document.querySelector("#video");
+                let button = document.querySelector("#video-btn");
+                var div4hide = document.querySelector("#video-div");
+                // console.log(div4hide);
+                button.addEventListener("click", function() {
+                    video.play()
+                    video.setAttribute("controls", "controls");
+                    div4hide.classList.add('video-play-btn--hide');
+                }, false);
+                // video.click(function() {
+                //     
+                // })
+            </script>
         </section>
         <section class="mobile">
             <img src="img/iphone_in_hand.png" width="423" height="616" alt="iphone in hand">

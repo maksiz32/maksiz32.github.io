@@ -1,1 +1,3 @@
-# maksiz32.github.io
+Lesson 6 
+
+Lesson 7

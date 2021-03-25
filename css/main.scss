@@ -14,12 +14,19 @@ button, button:focus {
 .no-margin {
     margin: 0 !important;
 }
+img {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.video-play-btn--hide {
+    display: none; 
+}
 .header {
     min-height: 100vh;
     background-image: url('../img/bg_header_mountains.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
 
     &-nav {
         display: flex;
